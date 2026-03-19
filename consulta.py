@@ -44,7 +44,7 @@ df = cargar_datos()
 
 # 4. Interfaz de Busqueda
 if df is not None:
-    placa_usuario = st.text_input("Escriba la placa (Ej: W8B-869):").upper().strip()
+    placa_usuario = st.text_input("Escriba la placa (Ej: W8C-857):").upper().strip()
 
     if st.button("Consultar"):
         if placa_usuario:
